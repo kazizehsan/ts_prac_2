@@ -1,1 +1,1 @@
-export const serverName = "Server1"
+export const serverName = "Server1";
