@@ -1,8 +1,11 @@
 {
   "name": "ts_prac_2",
   "version": "1.0.0",
-  "description": "",
+  "description": "TypeScript backend fundamentals",
   "main": "dist/app.js",
+  "repository": "https://github.com/kazizehsan/ts_prac_2.git",
+  "author": "Kazi Ehsan Aziz <kazizehsan@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "start": "node dist/app.js",
     "nodemon": "nodemon dist/app.js",
@@ -14,9 +17,13 @@
     "lint:fix": "eslint --fix .",
     "format": "prettier --config .prettierrc 'src/**/*.ts' --write"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "node",
+    "typescript",
+    "node.js",
+    "boilerplate",
+    "express"
+  ],
   "devDependencies": {
     "@tsconfig/node18": "^2.0.1",
     "@types/node": "^20.3.1",
