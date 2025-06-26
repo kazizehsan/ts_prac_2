@@ -2,7 +2,8 @@
     "extends": "@tsconfig/node18/tsconfig.json",
     "compilerOptions": {
         "preserveConstEnums": true,
-        "outDir": "dist"
+        "outDir": "dist",
+        "sourceMap": true,
     },
     "include": ["src/**/*"],
 }

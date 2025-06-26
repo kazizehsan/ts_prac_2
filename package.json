@@ -7,7 +7,7 @@
   "author": "Kazi Ehsan Aziz <kazizehsan@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node dist/app.js",
+    "start": "node --enable-source-maps dist/app.js",
     "nodemon": "nodemon dist/app.js",
     "build": "rm -rf dist && webpack",
     "build:tsc": "rm -rf dist && tsc",
